@@ -12,6 +12,5 @@ typedef struct {
 TCipher *init_TCipher(char *alphabet_lowcase, char *alphabet_uppercase, unsigned offset, char *input_filename, char *output_filename);
 int encrypt(TCipher *user_input);
 int decrypt(TCipher *user_input);
-int check_user_input();
 
 #endif
